@@ -8,8 +8,8 @@ import org.scalatest.junit.JUnitRunner
 class BaseACTest extends FunSpec {
 
   it("Should allocate the memory!") {
-    val base = Base("wiktor", "golebiewski")
-    assert(base.name === "wiktor")
-    assert(base.surname === "golebiewski")
+    val base = Base("Andrzej", "Flakiewicz")
+    assert(base.name === "Andrzej")
+    assert(base.surname === "Flakiewicz")
   }
 }
